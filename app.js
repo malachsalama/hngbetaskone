@@ -27,7 +27,7 @@ app.get("/api", (req, res) => {
     github_file_url:
       "https://github.com/malachsalama/hngbetaskone/blob/main/app.js",
     github_repo_url: "https://github.com/malachsalama/hngbetaskone",
-    status_code: req.statusCode,
+    status_code: res.statusCode,
   });
 });
 
