@@ -24,8 +24,9 @@ app.get("/api", (req, res) => {
         Number(num).toFixed(0).padStart(2, 0)
       ),
     track: req.query.track,
-    github_file_url: "",
-    github_repo_url: "",
+    github_file_url:
+      "https://github.com/malachsalama/hngbetaskone/blob/main/app.js",
+    github_repo_url: "https://github.com/malachsalama/hngbetaskone",
     status_code: req.statusCode,
   });
 });
